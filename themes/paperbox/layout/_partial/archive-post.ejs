@@ -1,0 +1,8 @@
+<article class="archive-article archive-type-<%= post.layout %>">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <span datetime="<%= date_xml(post.date) %>"><%= date(post.date, config.date_format) %></span>
+      <a href="<%- url_for(post.permalink) %>"><%- post.title %></a>
+    </header>
+  </div>
+</article>

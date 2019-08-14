@@ -1,0 +1,18 @@
+<div class="header">
+  <a class="header-title" href="/"><%= config.title %></a>
+  <div class="contenedor">
+    <ul class="cube">
+      <li class="cara"><%= config.title %></li>
+      <li class="cara"></li>
+      <li class="cara"></li>
+      <li class="cara"></li>
+      <li class="cara"></li>
+      <li class="cara"></li>
+    </ul>
+  </div>
+  <div class="main-nav">
+    <% for (var i in config.menu){ %>
+      <a class="main-nav-link" href="<%- url_for(config.menu[i]) %>"><%= __(i) %></a>
+    <% } %>
+  </div>
+</div>

@@ -1,0 +1,86 @@
+<article class="article" itemscope itemprop="blogPost">
+  <div class="curve-down">
+  <div class="fill-content">
+    <header class="article-header">
+      <% if (index){ %>
+        <h1 itemprop="name">
+          <a class="article-title" href="<%- url_for(post.permalink) %>"><%= post.title %></a>
+        </h1>
+      <% } else { %>
+        <h1 class="article-title" itemprop="name">
+          <%= post.title %>
+        </h1>
+      <% } %>
+    </header>
+    <div class="article-meta">
+      <span datetime="<%= date_xml(post.date) %>"><%= date(post.date, config.date_format) %></span>
+      <% if (post.categories && post.categories.length){ %>
+        <span class="article-category">
+          <%- list_categories(post.categories, {
+            show_count: false,
+            class: 'article-category',
+            style: 'none',
+            separator: '►'
+          }) %>
+        </span>
+      <% } %>
+      <% if (post.tags && post.tags.length){ %>
+        <span>
+          <% if (post.tags && post.tags.length) { %>
+            <% post.tags.forEach(function(tag, i) { %>
+                <%- link_to(tag.path, tag.name, {class: 'article-tag'}) %><% if (i != post.tags.length - 1) { %> <% } %>
+            <% }); %>
+          <% } %>
+        </span>
+      <% } %>
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      <% if (index){ %>
+        <%- post.blogexcerpt || post.excerpt || shortPost(post.content) %>
+        <a class="article-more-link" href="<%- url_for(post.permalink) %>">查看全文</a>
+      <% } else { %>
+        <% if (!index && post.toc){ %>
+          <div class="toc" class="toc-article">
+            <strong class="toc-title"><%= __('contents') %></strong>
+            <%- toc(post.content, {list_number: false}) %>
+          </div>
+        <% } %>
+        <%- post.content %>
+      <% } %>
+    </div>
+    <div class="article-footer">
+      <div class="share-box">
+        <span class="share-txt">分享到：</span>
+        <i class="icon-weibo" title="微博" data-type="weibo"></i>
+        <i class="icon-qzone" title="QQ空间" data-type="qzone"></i>
+        <i class="icon-qq" title="QQ" data-type="qq"></i>
+        <i class="icon-douban" title="豆瓣" data-type="douban"></i>
+      </div>
+    </div>
+  </div>
+  </div>
+  <% if (!index){ %>
+    <% if (post.prev || post.next){ %>
+      <nav class="article-nav">
+        <% if (post.prev){ %>
+          <a href="<%- url_for(post.prev.path) %>" class="article-nav-newer article-nav-link-wrap">
+            <strong class="article-nav-caption"><%= __('newer') %></strong>
+            <div class="article-nav-title">
+              <% if (post.prev.title){ %>
+                <%= post.prev.title %>
+              <% } else { %>
+                (no title)
+              <% } %>
+            </div>
+          </a>
+        <% } %>
+        <% if (post.next){ %>
+          <a href="<%- url_for(post.next.path) %>" class="article-nav-older article-nav-link-wrap">
+            <strong class="article-nav-caption"><%= __('older') %></strong>
+            <div class="article-nav-title"><%= post.next.title %></div>
+          </a>
+        <% } %>
+      </nav>
+    <% } %>
+  <% } %>
+</article>
