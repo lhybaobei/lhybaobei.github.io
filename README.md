@@ -1,6 +1,6 @@
 ## 本地测试
 
-```shell
+```bash
 yarn dev
 ```
 
@@ -8,20 +8,20 @@ yarn dev
 
 修改文件后重新生成html
 
-```shell
+```bash
 yarn build
 ```
 
 ## 发布
 
-```shell
+```bash
 yarn pub
 ```
 
 ## 重新发布所有页面
 
-修改主题模板等公共资源后，需重新发布
+修改主题模板等公共资源后，需先清理再发布
 
-```shell
-yarn repub
+```bash
+yarn clean && yarn pub
 ```

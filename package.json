@@ -6,7 +6,7 @@
     "version": "4.2.1"
   },
   "scripts": {
-    "repub": "hexo clean && export NODE_ENV=production || set NODE_ENV=production&& hexo d",
+    "clean": "hexo clean",
     "build": "hexo g",
     "dev": "hexo g && hexo server",
     "pub": "export NODE_ENV=production || set NODE_ENV=production&& hexo g && hexo d"
