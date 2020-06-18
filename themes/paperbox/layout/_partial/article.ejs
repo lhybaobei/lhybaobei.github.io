@@ -4,7 +4,7 @@
     <header class="article-header">
       <% if (index){ %>
         <h1 itemprop="name">
-          <a class="article-title" href="<%- url_for(post.permalink) %>"><%= post.title %></a>
+          <a class="article-title" href="<%- url_for(post.path) %>"><%= post.title %></a>
         </h1>
       <% } else { %>
         <h1 class="article-title" itemprop="name">
@@ -37,7 +37,7 @@
     <div class="article-entry" itemprop="articleBody">
       <% if (index){ %>
         <%- post.blogexcerpt || post.excerpt || shortPost(post.content) %>
-        <a class="article-more-link" href="<%- url_for(post.permalink) %>">查看全文</a>
+        <a class="article-more-link" href="<%- url_for(post.path) %>">查看全文</a>
       <% } else { %>
         <% if (!index && post.toc){ %>
           <div class="toc" class="toc-article">
