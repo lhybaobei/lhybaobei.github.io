@@ -21,7 +21,7 @@ menu:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.laiui.com
 root: /
-permalink: :year/:month:day:time.html
+permalink: :year/:month:day:hour:minute.html
 permalink_defaults:
 
 # Directory

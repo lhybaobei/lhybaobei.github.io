@@ -1,4 +1,8 @@
 ## 本地测试
+##先安装
+```bash
+yarn install
+```
 
 ```bash
 yarn dev
