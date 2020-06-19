@@ -7,7 +7,7 @@ title: 来UI
 subtitle:
 description:
 keywords:
-author: smile
+author: 瘦瘦
 language: zh-CN
 timezone:
 
@@ -86,3 +86,6 @@ deploy:
   type: git
   repo: git@github.com:lhybaobei/lhybaobei.github.io.git
   branch: master
+#版权信息
+copyright:
+    enable: true

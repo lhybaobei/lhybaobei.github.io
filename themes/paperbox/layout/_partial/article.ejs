@@ -45,8 +45,15 @@
             <%- toc(post.content, {list_number: false}) %>
           </div>
         <% } %>
+
         <%- post.content %>
+                <!-- 要添加的内容 -->
+                <% if (!index && theme.copyright.enable){ %>
+                  <%- partial('copyright') %>
+                  <% } %>
+                  <!---->
       <% } %>
+       
     </div>
     <div class="article-footer">
       <div class="share-box">
@@ -84,4 +91,7 @@
     <% } %>
   <% } %>
 </article>
+
+
+
 <div id="comment" class="comment"></div>

@@ -21,3 +21,9 @@ updated: 更新日期
 totop: 返回顶部
 older: 上一篇
 newer: 下一篇
+copyright:
+    author: "本文作者: "
+    link: "文章连结: "
+    license_title: "版权声明: "
+    left_license_content: ""
+    right_license_content: "本站所有文章除特别声明外，均可转载，转载请注明出处!"
