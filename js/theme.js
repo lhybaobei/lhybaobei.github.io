@@ -11,18 +11,18 @@ $(function() {
   });
 
   // Load comment
-  if ($("#comment").length) {
-    var gitalk = new Gitalk({
-      clientID: "5b1b57676fe4e6a65180",
-      clientSecret: "3e7d46e975b1adbc7443b394662dede1e40f907c",
-      repo: "lhybaobei.github.io",
-      owner: "lhybaobei",
-      admin: ["lhybaobei"],
-      id: location.pathname,
-      distractionFreeMode: false
-    });
-    gitalk.render("comment");
-  }
+  // if ($("#comment").length) {
+  //   var gitalk = new Gitalk({
+  //     clientID: "5b1b57676fe4e6a65180",
+  //     clientSecret: "3e7d46e975b1adbc7443b394662dede1e40f907c",
+  //     repo: "lhybaobei.github.io",
+  //     owner: "lhybaobei",
+  //     admin: ["lhybaobei"],
+  //     id: location.pathname,
+  //     distractionFreeMode: false
+  //   });
+  //   gitalk.render("comment");
+  // }
 
   // article-share
   $('.share-box i').click(function() {
