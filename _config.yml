@@ -89,3 +89,11 @@ deploy:
 #版权信息
 copyright:
     enable: true
+#新增markdown：
+markdown:
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+    - markdown-it-abbr
+    - markdown-it-emoji
