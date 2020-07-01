@@ -376,7 +376,7 @@ body {
 .header {
   border-bottom: 1px solid #fafafa;
   background-color: #258fb8;
-  background-image: url("/img/sunflower2.png");
+  background-image: url("../img/sunflower2.png");
   background-repeat:no-repeat;background-size: cover;
 }
 .header:after {
