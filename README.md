@@ -29,3 +29,17 @@ yarn pub
 ```bash
 yarn clean && yarn pub
 ```
+
+## 清理master分支历史版本，减小仓库体积
+
+```bash
+git checkout master
+rm -rf .DS_Store Thumbs.db db.json *.log node_modules public .deploy_git
+git checkout --orphan=tmp
+git add -A
+git commit -am "clean"
+git branch -D master
+git branch -m master
+git push -f origin master
+```
+
