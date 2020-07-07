@@ -43,3 +43,4 @@ git branch -m master
 git push -f origin master
 ```
 
+## 以后图片应命名为文章_图片
