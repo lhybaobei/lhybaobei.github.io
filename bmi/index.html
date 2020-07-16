@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   
-  <title>Tag: 慢性病 | 来UI</title>
+  <title>BMI计算器 | 来UI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="shortcut icon" href="/favicon.png">
 
@@ -40,33 +40,104 @@
   </div>
 </div>
     <div class="outer">
-      <section class="main">
-  
-  
-    
-    
+      <section class="main"><article class="article" itemscope itemprop="blogPost">
+  <div class="curve-down">
+  <div class="fill-content">
+    <header class="article-header">
       
+        <h1 class="article-title" itemprop="name">
+          BMI计算器
+        </h1>
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <span datetime="2020-07-15T09:55:52.000Z">2020-07-15</span>
-      <a href="/2020/07151755.html">健康管理师基础知识--第四章《常见慢性病》重点</a>
     </header>
+    <div class="article-meta">
+      <span datetime="2020-07-16T12:41:45.000Z">2020-07-16</span>
+      
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+
+        <h1>瘦瘦做一个简易的BMI计算器，</h1>
+<h1>方便大家计算自己的体质指数。</h1>
+
+<body>
+ <form method="get" style="background:#E8E8E8" action="">
+  <h2>体质指数BMI计算器</h2>
+  <p>请输入您的体重(单位：kg)：<input type="text" style="width:150px;height:30px" id="weight"></p>
+  <p>请输入您的身高(单位：m)：<input type="text" style="width:150px;height:30px" id="height"><p>
+   <p>您的体重指数BMI=<input type="text" style="width:220px;height:30px"  readonly="readonly" id="bmi"><p>
+  <input type="button" style="width:180px;height:50px;font-size:18px" value="计算您的BMI" onclick="show()" />
+  <input type="reset" style="width:180px;height:50px;font-size:18px" value="重新输入数据" />
+<script type="text/javascript">
+ function bmi(weight,height){
+  var weight=document.getElementById("weight").value;//获取体重
+  var height=document.getElementById("height").value;//获取身高
+  var bmi=weight/(Math.pow(height,2));//计算BMI
+  return bmi;
+ }
+ function show(){
+  //输出BMI
+  document.getElementById("bmi").value=bmi(weight,height);
+ }
+</script>
+</form>
+
+  
+<h2 id="目前，我国成人BMI切点范围说明">目前，我国成人BMI切点范围说明</h2>
+<h2 id="1-BMI-18-5-消瘦；">1.  BMI&lt;18.5  消瘦；</h2>
+<h2 id="2-18-5≤BMI-24-正常；">2.  <strong>18.5≤BMI&lt;24 正常</strong>；</h2>
+<h2 id="3-24≤BMI-28超重">3.  24≤BMI&lt;28超重</h2>
+<h2 id="4-BMI≥28-肥胖">4.  BMI≥28 肥胖</h2>
+<h3 id="当您的BMI≥24时，就必须要控制体重了哦，">当您的BMI≥24时，就必须要控制体重了哦，</h3>
+<h3 id="否则会有很多慢性病找上门来，">否则会有很多慢性病找上门来，</h3>
+<h3 id="当您坚持不下去的时候，">当您坚持不下去的时候，</h3>
+<h3 id="可以看看瘦瘦博客中的专栏“管理体重”，">可以看看瘦瘦博客中的专栏“管理体重”，</h3>
+<h3 id="向着健康坚定不移的出发！！！">向着健康坚定不移的出发！！！</h3>
+
+                <!-- 要添加的内容 -->
+                
+                  <div>
+    <ul class="post-copyright">
+      <li class="post-copyright-author">
+      <strong>本文作者:  </strong>瘦瘦</a>
+      </li>
+      <li class="post-copyright-link">
+      <strong>文章连结:  </strong>
+      <a href="/bmi/index.html" target="_blank" title="BMI计算器">https://www.laiui.com/bmi/index.html</a>
+      </li>
+      <li class="post-copyright-license">
+        <strong>版权声明:   </strong>
+        <!-- copyright.left_license_content<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a> -->
+        本站所有文章除特别声明外，均可转载，转载请注明出处!
+      </li>
+    </ul>
+  <div>
+                  
+                  <!---->
+      
+       
+    </div>
+    <div class="article-footer">
+      <div class="share-box">
+        <span class="share-txt">分享到：</span>
+        <i class="icon-weibo" title="微博" data-type="weibo"></i>
+        <i class="icon-qzone" title="QQ空间" data-type="qzone"></i>
+        <i class="icon-qq" title="QQ" data-type="qq"></i>
+        <i class="icon-douban" title="豆瓣" data-type="douban"></i>
+      </div>
+    </div>
   </div>
+  </div>
+  
+    
+  
 </article>
-  
-  
-    </div></section>
-  
-  
-</section>
+
+
+
+<div id="comment" class="comment"></div></section>
       <aside class="sidebar">
   
     <div class="widget-wrap">
