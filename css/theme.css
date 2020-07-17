@@ -204,7 +204,6 @@ body {
 }
 .article-date,
 .article-category-link,
-.archive-year,
 .widget-title {
   text-decoration: none;
   text-transform: uppercase;
@@ -215,6 +214,20 @@ body {
   line-height: 1em;
   text-shadow: 0 1px #fff;
   font-weight: bold;
+ }
+
+.archive-year
+ {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  color: #272822;
+  margin-bottom: 1em;
+  margin-left: 5px;
+  line-height: 1em;
+  text-shadow: 0 1px #fff;
+  font-weight: bold;
+  font-size:28px;
 }
 .article-entry h1,
 .widget h1,
@@ -968,7 +981,7 @@ a.article-title:hover {
 }
 @media screen and (min-width: 768px) {
   .archives {
-    column-count: 3;
+    column-count: unset;
   }
 }
 .archive-article {
@@ -977,9 +990,9 @@ a.article-title:hover {
   break-inside: avoid-column;
 }
 .archive-article-inner {
-  background: #fafafa;
+  /* background: #fafafa;
   box-shadow: 0px 2px 4px -2px #888, inset 0 1px 1px rgba(255, 255, 255, 0.97),
-    0 0 3px -1px rgba(0, 0, 0, 0.8);
+    0 0 3px -1px rgba(0, 0, 0, 0.8); */
   padding: 10px;
   margin-bottom: 15px;
 }
@@ -1357,9 +1370,47 @@ pre .javascript .function {
 .archive-list-count:after {
   content: ")";
 }
-.tagcloud a {
+/* .tagcloud a {
   margin-right: 5px;
+} */
+/*tag-cloud*/
+.tag-cloud {
+  text-align: center;
+  margin-top: 20px;
 }
+.tag-cloud-title {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.tag-cloud-tags {
+  text-align: center;
+}
+.tag-cloud a {
+  display: inline-block;
+  margin: 0 0.4rem;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: normal;
+  padding: 5px 5px 5px 10px;
+  position: relative;
+  border-radius: 0 5px 5px 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.tag-cloud a:hover {
+  color: #ff7242 !important;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* //here cloud end */
 .post-copyright {
   margin: 2em 0 0;
   padding: 0.5em 1em;
