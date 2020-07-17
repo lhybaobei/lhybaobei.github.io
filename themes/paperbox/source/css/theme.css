@@ -976,7 +976,7 @@ a.article-title:hover {
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .archives {
-    column-count: 2;
+    column-count: unset;
   }
 }
 @media screen and (min-width: 768px) {
