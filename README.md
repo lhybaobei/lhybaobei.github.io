@@ -3,14 +3,14 @@
 ```bash
 yarn install
 ```
-
+## 写完文件更新测试
 ```bash
 yarn dev
 ```
 
 默认地址： http://localhost:4000/
 
-修改文件后重新生成html
+## 修改文件后重新生成html
 
 ```bash
 yarn build
