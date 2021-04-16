@@ -1,68 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.laiui.com/about/index.html</loc>
-    <lastmod>2020-04-27T08:41:45.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2021/01041700.html</loc>
-    <lastmod>2021-01-04T09:00:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/11091431.html</loc>
-    <lastmod>2020-11-09T06:31:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/10161431.html</loc>
-    <lastmod>2020-10-16T06:31:52.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.laiui.com/2020/09282055.html</loc>
     <lastmod>2020-09-28T12:55:52.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.laiui.com/2020/08282055.html</loc>
-    <lastmod>2020-08-28T12:55:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/09111353.html</loc>
-    <lastmod>2020-09-11T05:53:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/08072053.html</loc>
-    <lastmod>2020-08-07T12:53:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/08132055.html</loc>
-    <lastmod>2020-08-13T12:55:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/07311755.html</loc>
-    <lastmod>2020-07-31T09:55:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/bmi/index.html</loc>
-    <lastmod>2020-07-16T12:41:45.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/bmi/index-1.html</loc>
-    <lastmod>2020-07-16T02:36:35.000Z</lastmod>
+    <loc>https://www.laiui.com/2020/07022050.html</loc>
+    <lastmod>2020-07-02T12:50:52.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.laiui.com/2020/07151755.html</loc>
     <lastmod>2020-07-15T09:55:52.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.laiui.com/2020/07111755.html</loc>
-    <lastmod>2020-07-11T09:55:52.000Z</lastmod>
+    <loc>https://www.laiui.com/2020/07311755.html</loc>
+    <lastmod>2020-07-31T09:55:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/08282055.html</loc>
+    <lastmod>2020-08-28T12:55:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/06222155.html</loc>
+    <lastmod>2020-06-22T13:55:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/404.html</loc>
+    <lastmod>2021-04-14T08:41:12.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/10161431.html</loc>
+    <lastmod>2020-10-16T06:31:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/11091431.html</loc>
+    <lastmod>2020-11-09T06:31:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2021/01041700.html</loc>
+    <lastmod>2021-01-04T09:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/07072053.html</loc>
+    <lastmod>2020-07-07T12:53:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/08072053.html</loc>
+    <lastmod>2020-08-07T12:53:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/09111353.html</loc>
+    <lastmod>2020-09-11T05:53:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/06271357.html</loc>
+    <lastmod>2020-06-27T05:57:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/07012255.html</loc>
+    <lastmod>2020-07-01T14:55:52.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.laiui.com/2020/07032155.html</loc>
     <lastmod>2020-07-03T13:55:52.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.laiui.com/2020/07022050.html</loc>
-    <lastmod>2020-07-02T12:50:52.000Z</lastmod>
+    <loc>https://www.laiui.com/2020/07111755.html</loc>
+    <lastmod>2020-07-11T09:55:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/bmi/index.html</loc>
+    <lastmod>2020-07-16T12:41:45.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/06232055.html</loc>
+    <lastmod>2020-06-23T12:55:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/06201955.html</loc>
+    <lastmod>2020-06-20T11:55:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/about/index.html</loc>
+    <lastmod>2020-04-27T08:41:45.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/06301955.html</loc>
+    <lastmod>2020-06-30T11:55:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/2020/08132055.html</loc>
+    <lastmod>2020-08-13T12:55:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.laiui.com/bmi/index-1.html</loc>
+    <lastmod>2020-07-16T02:36:35.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.laiui.com/2020/07111015.html</loc>
@@ -73,40 +105,8 @@
     <lastmod>2020-07-08T09:15:52.000Z</lastmod>
   </url>
   <url>
-    <loc>https://www.laiui.com/2020/07072053.html</loc>
-    <lastmod>2020-07-07T12:53:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/07012255.html</loc>
-    <lastmod>2020-07-01T14:55:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/06301955.html</loc>
-    <lastmod>2020-06-30T11:55:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/06222155.html</loc>
-    <lastmod>2020-06-22T13:55:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/06201955.html</loc>
-    <lastmod>2020-06-20T11:55:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/06271357.html</loc>
-    <lastmod>2020-06-27T05:57:52.000Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.laiui.com/2020/06242055.html</loc>
     <lastmod>2020-06-24T12:55:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/2020/06232055.html</loc>
-    <lastmod>2020-06-23T12:55:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.laiui.com/404.html</loc>
-    <lastmod>2020-06-09T05:45:34.161Z</lastmod>
   </url>
   
 </urlset>
